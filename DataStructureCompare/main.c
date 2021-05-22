@@ -1,16 +1,35 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-int main(int argc,char * argv[]) {
-    char parm[7][5] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
-    int n=0,m=0;
-    int parmTag [5][3] = {
-            // use 0/1, building time: xxxx sec, query time: xxxx sec
-            {0,0,0},
-            {0,0,0},
-            {0,0,0},
-            {0,0,0},
-            {0,0,0}
-    };
+#include <time.h>
+
+void init(int ,char **);
+void runStructure();
+void creatData();
+
+int n=0,m=0;
+int dataLen=8;
+const char parm[7][5] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
+int parmTag [5][3] = {
+    // use 0/1, building time: xxxx sec, query time: xxxx sec
+    {0,0,0},
+    {0,0,0},
+    {0,0,0},
+    {0,0,0},
+    {0,0,0}
+};
+int main(int argc,char ** argv) {
+
+    init(argc,argv);
+    creatData();
+
+    runStructure();
+
+
+    return 0;
+}
+
+void init(int argc,char ** argv){
     for (int i = 1; i < argc; i++) {
         if(argv[i][0] == '-' && argv[i][1] != '\0' ){
             int j= 0;
@@ -35,6 +54,68 @@ int main(int argc,char * argv[]) {
             }
         }
     }
+};
 
-    return 0;
+void creatData(){
+    char ** dataTemp= malloc(sizeof(char * )*n);
+    srand( time(NULL) );
+    for (int i = 0; i < n; i++) {
+        dataTemp[i] = malloc(sizeof(char)*dataLen+1);
+        for (int j = 0; j < dataLen; j++) {
+            dataTemp[i][j] = (char)('0'+(rand()%10));
+        }
+        dataTemp[i][dataLen]='\n';
+    }
+    FILE * setIntData;
+    setIntData = fopen("./IntData.txt","w");
+    for (int i = 0; i < n; i++) {
+        sprintf(setIntData,"%s",dataTemp[i]);
+        free(dataTemp[i]);
+    }
+    free(dataTemp);
+    fclose(setIntData);
+}
+
+void creatSearch(){
+    char ** dataTemp= malloc(sizeof(char * )*m);
+    srand( time(NULL) );
+    for (int i = 0; i < m; i++) {
+        dataTemp[i] = malloc(sizeof(char)*dataLen+1);
+        for (int j = 0; j < dataLen; j++) {
+            dataTemp[i][j] = (char)('0'+(rand()%10));
+        }
+        dataTemp[i][dataLen]='\n';
+    }
+    FILE * setIntData;
+    setIntData = fopen("./IntSearch.txt","w");
+    for (int i = 0; i < m; i++) {
+        sprintf(setIntData,"%s",dataTemp[i]);
+        free(dataTemp[i]);
+    }
+    free(dataTemp);
+    fclose(setIntData);
+}
+
+void runStructure(){
+    for (int i = 0; i < 5; i++) {
+        if(parmTag[i][0] !=0 ){
+            switch (i) {
+                case 0:
+
+                    break;
+                case 1:
+
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+
+                    break;
+            }
+        }
+    }
 }
