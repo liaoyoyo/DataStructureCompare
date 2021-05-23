@@ -126,6 +126,141 @@ DataStructureCompare\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\build
 .PHONY : DataStructureCompare\fast
 
+Array.obj: Array.c.obj
+
+.PHONY : Array.obj
+
+# target to build an object file
+Array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\Array.c.obj
+.PHONY : Array.c.obj
+
+Array.i: Array.c.i
+
+.PHONY : Array.i
+
+# target to preprocess a source file
+Array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\Array.c.i
+.PHONY : Array.c.i
+
+Array.s: Array.c.s
+
+.PHONY : Array.s
+
+# target to generate assembly for a file
+Array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\Array.c.s
+.PHONY : Array.c.s
+
+ArrayWithBinarySearch.obj: ArrayWithBinarySearch.c.obj
+
+.PHONY : ArrayWithBinarySearch.obj
+
+# target to build an object file
+ArrayWithBinarySearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.obj
+.PHONY : ArrayWithBinarySearch.c.obj
+
+ArrayWithBinarySearch.i: ArrayWithBinarySearch.c.i
+
+.PHONY : ArrayWithBinarySearch.i
+
+# target to preprocess a source file
+ArrayWithBinarySearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.i
+.PHONY : ArrayWithBinarySearch.c.i
+
+ArrayWithBinarySearch.s: ArrayWithBinarySearch.c.s
+
+.PHONY : ArrayWithBinarySearch.s
+
+# target to generate assembly for a file
+ArrayWithBinarySearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.s
+.PHONY : ArrayWithBinarySearch.c.s
+
+BinarySearchTree.obj: BinarySearchTree.c.obj
+
+.PHONY : BinarySearchTree.obj
+
+# target to build an object file
+BinarySearchTree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.obj
+.PHONY : BinarySearchTree.c.obj
+
+BinarySearchTree.i: BinarySearchTree.c.i
+
+.PHONY : BinarySearchTree.i
+
+# target to preprocess a source file
+BinarySearchTree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.i
+.PHONY : BinarySearchTree.c.i
+
+BinarySearchTree.s: BinarySearchTree.c.s
+
+.PHONY : BinarySearchTree.s
+
+# target to generate assembly for a file
+BinarySearchTree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.s
+.PHONY : BinarySearchTree.c.s
+
+Hash.obj: Hash.c.obj
+
+.PHONY : Hash.obj
+
+# target to build an object file
+Hash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\Hash.c.obj
+.PHONY : Hash.c.obj
+
+Hash.i: Hash.c.i
+
+.PHONY : Hash.i
+
+# target to preprocess a source file
+Hash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\Hash.c.i
+.PHONY : Hash.c.i
+
+Hash.s: Hash.c.s
+
+.PHONY : Hash.s
+
+# target to generate assembly for a file
+Hash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\Hash.c.s
+.PHONY : Hash.c.s
+
+LinkedList.obj: LinkedList.c.obj
+
+.PHONY : LinkedList.obj
+
+# target to build an object file
+LinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\LinkedList.c.obj
+.PHONY : LinkedList.c.obj
+
+LinkedList.i: LinkedList.c.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\LinkedList.c.i
+.PHONY : LinkedList.c.i
+
+LinkedList.s: LinkedList.c.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructureCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DataStructureCompare.dir\LinkedList.c.s
+.PHONY : LinkedList.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -162,6 +297,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DataStructureCompare
+	@echo ... Array.obj
+	@echo ... Array.i
+	@echo ... Array.s
+	@echo ... ArrayWithBinarySearch.obj
+	@echo ... ArrayWithBinarySearch.i
+	@echo ... ArrayWithBinarySearch.s
+	@echo ... BinarySearchTree.obj
+	@echo ... BinarySearchTree.i
+	@echo ... BinarySearchTree.s
+	@echo ... Hash.obj
+	@echo ... Hash.i
+	@echo ... Hash.s
+	@echo ... LinkedList.obj
+	@echo ... LinkedList.i
+	@echo ... LinkedList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

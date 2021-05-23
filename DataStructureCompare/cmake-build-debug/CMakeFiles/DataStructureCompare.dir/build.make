@@ -79,17 +79,122 @@ CMakeFiles\DataStructureCompare.dir\main.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DataStructureCompare.dir\main.c.s /c E:\C_code\DataStructureCompare\main.c
 <<
 
+CMakeFiles\DataStructureCompare.dir\LinkedList.c.obj: CMakeFiles\DataStructureCompare.dir\flags.make
+CMakeFiles\DataStructureCompare.dir\LinkedList.c.obj: ..\LinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\C_code\DataStructureCompare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructureCompare.dir/LinkedList.c.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DataStructureCompare.dir\LinkedList.c.obj /FdCMakeFiles\DataStructureCompare.dir\ /FS -c E:\C_code\DataStructureCompare\LinkedList.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\LinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructureCompare.dir/LinkedList.c.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\DataStructureCompare.dir\LinkedList.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\C_code\DataStructureCompare\LinkedList.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\LinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructureCompare.dir/LinkedList.c.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DataStructureCompare.dir\LinkedList.c.s /c E:\C_code\DataStructureCompare\LinkedList.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\Array.c.obj: CMakeFiles\DataStructureCompare.dir\flags.make
+CMakeFiles\DataStructureCompare.dir\Array.c.obj: ..\Array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\C_code\DataStructureCompare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DataStructureCompare.dir/Array.c.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DataStructureCompare.dir\Array.c.obj /FdCMakeFiles\DataStructureCompare.dir\ /FS -c E:\C_code\DataStructureCompare\Array.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\Array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructureCompare.dir/Array.c.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\DataStructureCompare.dir\Array.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\C_code\DataStructureCompare\Array.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\Array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructureCompare.dir/Array.c.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DataStructureCompare.dir\Array.c.s /c E:\C_code\DataStructureCompare\Array.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.obj: CMakeFiles\DataStructureCompare.dir\flags.make
+CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.obj: ..\ArrayWithBinarySearch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\C_code\DataStructureCompare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DataStructureCompare.dir/ArrayWithBinarySearch.c.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.obj /FdCMakeFiles\DataStructureCompare.dir\ /FS -c E:\C_code\DataStructureCompare\ArrayWithBinarySearch.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructureCompare.dir/ArrayWithBinarySearch.c.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\C_code\DataStructureCompare\ArrayWithBinarySearch.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructureCompare.dir/ArrayWithBinarySearch.c.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.s /c E:\C_code\DataStructureCompare\ArrayWithBinarySearch.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.obj: CMakeFiles\DataStructureCompare.dir\flags.make
+CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.obj: ..\BinarySearchTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\C_code\DataStructureCompare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DataStructureCompare.dir/BinarySearchTree.c.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.obj /FdCMakeFiles\DataStructureCompare.dir\ /FS -c E:\C_code\DataStructureCompare\BinarySearchTree.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructureCompare.dir/BinarySearchTree.c.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\C_code\DataStructureCompare\BinarySearchTree.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructureCompare.dir/BinarySearchTree.c.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.s /c E:\C_code\DataStructureCompare\BinarySearchTree.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\Hash.c.obj: CMakeFiles\DataStructureCompare.dir\flags.make
+CMakeFiles\DataStructureCompare.dir\Hash.c.obj: ..\Hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\C_code\DataStructureCompare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/DataStructureCompare.dir/Hash.c.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DataStructureCompare.dir\Hash.c.obj /FdCMakeFiles\DataStructureCompare.dir\ /FS -c E:\C_code\DataStructureCompare\Hash.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\Hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructureCompare.dir/Hash.c.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\DataStructureCompare.dir\Hash.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\C_code\DataStructureCompare\Hash.c
+<<
+
+CMakeFiles\DataStructureCompare.dir\Hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructureCompare.dir/Hash.c.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DataStructureCompare.dir\Hash.c.s /c E:\C_code\DataStructureCompare\Hash.c
+<<
+
 # Object files for target DataStructureCompare
 DataStructureCompare_OBJECTS = \
-"CMakeFiles\DataStructureCompare.dir\main.c.obj"
+"CMakeFiles\DataStructureCompare.dir\main.c.obj" \
+"CMakeFiles\DataStructureCompare.dir\LinkedList.c.obj" \
+"CMakeFiles\DataStructureCompare.dir\Array.c.obj" \
+"CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.obj" \
+"CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.obj" \
+"CMakeFiles\DataStructureCompare.dir\Hash.c.obj"
 
 # External object files for target DataStructureCompare
 DataStructureCompare_EXTERNAL_OBJECTS =
 
 DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\main.c.obj
+DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\LinkedList.c.obj
+DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\Array.c.obj
+DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\ArrayWithBinarySearch.c.obj
+DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\BinarySearchTree.c.obj
+DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\Hash.c.obj
 DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\build.make
 DataStructureCompare.exe: CMakeFiles\DataStructureCompare.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\C_code\DataStructureCompare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable DataStructureCompare.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\C_code\DataStructureCompare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable DataStructureCompare.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\DataStructureCompare.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\DataStructureCompare.dir\objects1.rsp @<<
  /out:DataStructureCompare.exe /implib:DataStructureCompare.lib /pdb:E:\C_code\DataStructureCompare\cmake-build-debug\DataStructureCompare.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

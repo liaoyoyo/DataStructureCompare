@@ -84,7 +84,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/C_code/DataStructureCompare/Array.c">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/Array.h">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/ArrayWithBinarySearch.c">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/ArrayWithBinarySearch.h">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/BinarySearchTree.c">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/BinarySearchTree.h">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/Data.h">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/Hash.c">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/Hash.h">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/LinkedList.c">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/LinkedList.h">
+			<Option target="DataStructureCompare"/>
+		</Unit>
 		<Unit filename="E:/C_code/DataStructureCompare/main.c">
+			<Option target="DataStructureCompare"/>
+		</Unit>
+		<Unit filename="E:/C_code/DataStructureCompare/main.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
 		<Unit filename="E:/C_code/DataStructureCompare/CMakeLists.txt">
