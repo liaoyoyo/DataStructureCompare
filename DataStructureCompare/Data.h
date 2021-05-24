@@ -6,5 +6,5 @@
 #include <time.h>
 #include <math.h>
 #define dataLen 8
-#define srandCount 0
+#define srandCount time(NULL)
 #endif //DATASTRUCTURECOMPARE_DATA_H

@@ -15,8 +15,8 @@ int main(int argc,char ** argv) {
     init(argc,argv);
     char ** dataTemp= malloc(sizeof(char * )*n);
     char ** SearchTemp= malloc(sizeof(char * )*m);
-    creatData(n,dataTemp);
-    creatSearch(m,SearchTemp);
+    creatData(dataTemp);
+    creatSearch(SearchTemp);
     runStructure(dataTemp,SearchTemp);
     printTime();
     freeAll(dataTemp,SearchTemp);
@@ -100,7 +100,7 @@ void printTime(){
     }
 }
 
-double creatData(int n,char ** dataTemp){
+double creatData(char ** dataTemp){
     clock_t start, finish;
     double diff;
     start = clock();
@@ -111,10 +111,18 @@ double creatData(int n,char ** dataTemp){
         dataTemp[i] = malloc(sizeof(char)*dataLen+1);
         sprintf(dataTemp[i],format,i);
     }
+    printf("%s",dataTemp[n-1]);
+    for (int i = 0; i < n; ++i) {
+        //if(i>999990)
+            printf("%s",dataTemp[i]);
+    }
     for (int i = 0; i < n-1; ++i) {
         SWAP(dataTemp,(int)(round((rand()*n)))%(n-1-i),n-1-i);
     }
-    //ArrayWriteToFileAndFree(dataTemp,"./IntData.txt",n);
+    for (int i = 0; i < n; ++i) {
+        printf("%s",dataTemp[i]);
+    }
+    //ArrayWriteToFile(dataTemp,"./IntData.txt",n);
     finish = clock();
     diff  = (double) (finish-start);
     return diff;
@@ -128,7 +136,7 @@ void SWAP(char ** strArray,int n1,int n2){
     free(temp);
 }
 
-double creatSearch(int m,char ** SearchTemp){
+double creatSearch(char ** SearchTemp){
     clock_t start, finish;
     double diff;
     start = clock();
@@ -140,7 +148,8 @@ double creatSearch(int m,char ** SearchTemp){
         }
         SearchTemp[i][dataLen]='\n';
     }
-    //ArrayWriteToFileAndFree(dataTemp,"./IntSearch.txt",m);
+
+    //ArrayWriteToFile(dataTemp,"./IntSearch.txt",m);
     finish = clock();
     diff  = (double) (finish-start);
     return diff;

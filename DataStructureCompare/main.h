@@ -4,9 +4,9 @@
 #define parmCount 7
 
 void init(int ,char **);
-double creatData(int ,char ** );
+double creatData(char ** );
 void SWAP(char ** ,int ,int );
-double creatSearch(int ,char ** );
+double creatSearch(char ** );
 void WriteToFile(char ** , char * , int);
 void runStructure(char ** ,char **);
 void printTime();
