@@ -43,6 +43,7 @@ double ArrayDataSearch( int n,char ** ArrayData,int m, char ** SearchTemp){
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
             if(strcmp(SearchTemp[i],ArrayData[j]) == 0)
+                //with finded
                 break;
         }
     }

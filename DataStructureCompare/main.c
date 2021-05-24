@@ -1,6 +1,8 @@
 #include "main.h"
 #include "Data.h"
 #include "Array.h"
+#include "ArrayWithBinarySearch.h"
+
 int n=0,m=0;
 const char parm[parmCount][5] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
 double parmTag [parmCount-2][3] = {
@@ -70,11 +72,9 @@ void runStructure(char ** dataTemp,char ** SearchTemp){
 
                     break;
                 case 1:
-
+                    MainWithBinarySearch(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 2:
-                    printf("%d\n",n);
-                    printf("%d\n",m);
                     MainArray(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 3:
@@ -92,9 +92,9 @@ void printTime(){
     int printRound = parmCount-2 ;
     for (int i = 0; i < printRound; ++i) {
         if(parmTag[i][0]!=0){
-            printf("%s:\n",&parm[i][1]);
-            printf("building time: %g sec\n",parmTag[i][1]);
-            printf("query time: %g sec\n",parmTag[i][2]);
+            printf("%s:\n",&parm[i+2][1]);
+            printf("building time: %g sec\n",parmTag[i][1]/1000);
+            printf("query time: %g sec\n",parmTag[i][2]/1000);
             printf("\n");
         }
     }
