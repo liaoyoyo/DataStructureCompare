@@ -111,17 +111,16 @@ double creatData(char ** dataTemp){
         dataTemp[i] = malloc(sizeof(char)*dataLen+1);
         sprintf(dataTemp[i],format,i);
     }
-    printf("%s",dataTemp[n-1]);
-    for (int i = 0; i < n; ++i) {
-        //if(i>999990)
-            printf("%s",dataTemp[i]);
-    }
-    for (int i = 0; i < n-1; ++i) {
-        SWAP(dataTemp,(int)(round((rand()*n)))%(n-1-i),n-1-i);
-    }
-    for (int i = 0; i < n; ++i) {
+    /*for (int i = 0; i < n; ++i) {
         printf("%s",dataTemp[i]);
+    }*/
+    for (int i = 0; i < n-1; ++i) {
+        int x=(int)round((long long)n * (long long)rand()/ (long long)(RAND_MAX + 1.0));
+        SWAP(dataTemp,x,n-1-i);
     }
+    /*for (int i = 0; i < n; ++i) {
+        printf("%s",dataTemp[i]);
+    }*/
     //ArrayWriteToFile(dataTemp,"./IntData.txt",n);
     finish = clock();
     diff  = (double) (finish-start);
@@ -148,7 +147,9 @@ double creatSearch(char ** SearchTemp){
         }
         SearchTemp[i][dataLen]='\n';
     }
-
+    /*for (int i = 0; i < n; ++i) {
+    printf("%s",SearchTemp[i]);
+    }*/
     //ArrayWriteToFile(dataTemp,"./IntSearch.txt",m);
     finish = clock();
     diff  = (double) (finish-start);
