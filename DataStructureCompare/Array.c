@@ -31,7 +31,6 @@ double ArrayDataCreat( int n, char ** dataTemp,char ** ArrayData){
     }
     finish = clock();
     diff  = (double) (finish-start);
-    printf("%lf\n",diff);
     return diff;
 }
 
@@ -49,7 +48,6 @@ double ArrayDataSearch( int n,char ** ArrayData,int m, char ** SearchTemp){
     }
     finish = clock();
     diff  = (double) (finish-start);
-    printf("%lf\n",diff);
     return diff;
 }
 

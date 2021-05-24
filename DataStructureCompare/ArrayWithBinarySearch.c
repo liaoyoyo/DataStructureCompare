@@ -6,6 +6,7 @@ double MainWithBinarySearch( int n, char ** dataTemp, int m, char ** SearchTemp,
     double time=0;
     char ** ArrayData = malloc(sizeof(char * ) *n);
     *creatTime = ArrayDataCreat(n,dataTemp,ArrayData);
+    *creatTime += ArrayWithBinarySearchSort(n,ArrayData);
     *SearchTime = ArrayWithBinarySearchDataSearch(n,ArrayData,m,SearchTemp);
     time+=*creatTime;
     time+=*SearchTime;
@@ -22,8 +23,22 @@ double ArrayWithBinarySearchDataSearch( int n,char ** ArrayData,int m, char ** S
     }
     finish = clock();
     diff  = (double) (finish-start);
-    printf("%lf\n",diff);
     return diff;
+}
+
+double ArrayWithBinarySearchSort(int n,char ** ArrayData){
+    clock_t start, finish;
+    double diff;
+    start = clock();
+    qsort(ArrayData,n,sizeof(ArrayData[0]),compare);
+    finish = clock();
+    diff  = (double) (finish-start);
+    return diff;
+}
+
+int compare( const void *a, const void *b)
+{
+    return( strcmp((char *)a,(char *)b) );
 }
 
 void binary_search(char ** arr, int start, int end, char * key) {
