@@ -69,7 +69,7 @@ void runStructure(char ** dataTemp,char ** SearchTemp){
         if(parmTag[i][0] !=0 ){
             switch (i) {
                 case 0:
-
+                    MainBinarySearchTree(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 1:
                     MainWithBinarySearch(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
