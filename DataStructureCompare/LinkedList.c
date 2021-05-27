@@ -9,55 +9,61 @@ double MainLinklist(int n, char ** dataTemp, int m, char ** SearchTemp,double * 
    List * begin = NULL;
    List * end = NULL;
    //begin = end;
-    printf("ok");
+
     for(int i= 0;i<n;++i){
-        *creatTime += LinklistCreat(n,dataTemp[i],begin,end);
+        *creatTime += LinklistCreat(n,dataTemp[i],&begin,end);
    }
-    printf("%s",begin->data);
+    clock_t start, finish;
+    double diff;
+    start = clock();
    for(int i= 0;i<m;++i){
         *SearchTime += LinklistSearch(begin,SearchTemp[i]);
    }
-   	
-   time+=*creatTime;
+    finish = clock();
+    *SearchTime  = (double) (finish-start);
+
+    time+=*creatTime;
    time+=*SearchTime;
    FreeLinklist(begin);
    return time;
 }
 
-double LinklistCreat(int n,char * str,List * *begin,List * end){
-   clock_t start, finish;
-   double diff;
-   start = clock();
-   List * tempList = end;
-   if(tempList != NULL){
-   tempList = tempList->next;
-   end->next = tempList;
-   }
-   tempList = malloc(sizeof(List));
-   strcpy(tempList->data,str);
-   tempList -> next = NULL;
-   if(*begin == NULL) *begin = tempList;
-   finish = clock();
-   diff  = (double) (finish-start);
-   return diff;
+double LinklistCreat(int n,char * str,List **begin,List * end){
+    clock_t start, finish;
+    double diff;
+    start = clock();
+    List * tempList = end;
+    if(tempList != NULL){
+        tempList = tempList->next;
+        end->next = tempList;
+    }
+    tempList = malloc(sizeof(List));
+    strcpy(tempList->data,str);
+    tempList -> next = NULL;
+    if(*begin == NULL) *begin = tempList;
+    finish = clock();
+    diff  = (double) (finish-start);
+    return diff;
 }
-
 double LinklistSearch(List * begin,char *str){
     clock_t start, finish;
     double diff;
     start = clock();
-    if(begin == NULL){
-       finish = clock();
-    	diff  = (double) (finish-start);
-    	return diff;
+
+    while (begin!= NULL){
+        printf("%s",begin->data);
+        if(strcmp(begin->data,str)==0){
+            finish = clock();
+            diff  = (double) (finish-start);
+            return diff;
+        }
+        else
+            begin = begin->next;
     }
-    else if(strcmp(begin->data,str)==0){
-       finish = clock();
-    	diff  = (double) (finish-start);
-    	return diff;
-    }
-    else
-    	begin = begin->next;
+
+    finish = clock();
+    diff  = (double) (finish-start);
+    return diff;
 }
 
 void FreeLinklist(List * begin){
