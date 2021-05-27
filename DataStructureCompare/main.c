@@ -2,7 +2,7 @@
 #include "Data.h"
 #include "Array.h"
 #include "ArrayWithBinarySearch.h"
-
+#include "BinarySearchTree.h"
 int n=0,m=0;
 const char parm[parmCount][5] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
 double parmTag [parmCount-2][3] = {
