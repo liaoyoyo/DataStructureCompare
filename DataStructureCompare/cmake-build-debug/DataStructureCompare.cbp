@@ -4,126 +4,116 @@
 	<Project>
 		<Option title="DataStructureCompare"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/C_code/DataStructureCompare/cmake-build-debug"/>
+				<Option working_dir="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/C_code/DataStructureCompare/cmake-build-debug"/>
+				<Option working_dir="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DataStructureCompare">
-				<Option output="E:/C_code/DataStructureCompare/cmake-build-debug/DataStructureCompare.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C_code/DataStructureCompare/cmake-build-debug"/>
+				<Option output="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/DataStructureCompare.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 DataStructureCompare"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructureCompare"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DataStructureCompare/fast">
-				<Option output="E:/C_code/DataStructureCompare/cmake-build-debug/DataStructureCompare.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C_code/DataStructureCompare/cmake-build-debug"/>
+				<Option output="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/DataStructureCompare.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 DataStructureCompare/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructureCompare/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/C_code/DataStructureCompare/cmake-build-debug"/>
+				<Option working_dir="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C_code\DataStructureCompare\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/C_code/DataStructureCompare/Array.c">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/Array.c">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/Array.h">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/Array.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/ArrayWithBinarySearch.c">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/ArrayWithBinarySearch.c">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/ArrayWithBinarySearch.h">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/ArrayWithBinarySearch.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/BinarySearchTree.c">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/BinarySearchTree.c">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/BinarySearchTree.h">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/BinarySearchTree.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/Data.h">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/Data.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/Hash.c">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/Hash.c">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/Hash.h">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/Hash.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/LinkedList.c">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/LinkedList.c">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/LinkedList.h">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/LinkedList.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/main.c">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/main.c">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/main.h">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/main.h">
 			<Option target="DataStructureCompare"/>
 		</Unit>
-		<Unit filename="E:/C_code/DataStructureCompare/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
