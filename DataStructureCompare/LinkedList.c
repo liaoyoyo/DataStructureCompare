@@ -24,16 +24,19 @@ double MainLinklist(int n, char ** dataTemp, int m, char ** SearchTemp,double * 
    return time;
 }
 
-double LinklistCreat(int n,char * str,List * begin,List * end){
+double LinklistCreat(int n,char * str,List * *begin,List * end){
    clock_t start, finish;
    double diff;
    start = clock();
    List * tempList = end;
-   if(end != NULL)end = end->next;
-   end = malloc(sizeof(List));
+   if(tempList != NULL){
+   tempList = tempList->next;
+   end->next = tempList;
+   }
+   tempList = malloc(sizeof(List));
    strcpy(tempList->data,str);
-   tempList->next = end;
-   if(begin == NULL) begin = tempList;
+   tempList -> next = NULL;
+   if(*begin == NULL) *begin = tempList;
    finish = clock();
    diff  = (double) (finish-start);
    return diff;
