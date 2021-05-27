@@ -2,8 +2,6 @@
 #include "Data.h"
 
 
-
-
 double MainBinarySearchTree( int n, char ** dataTemp, int m, char ** SearchTemp,double * creatTime,double * SearchTime){
     double time=0;
     Node * root=NULL;
