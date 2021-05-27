@@ -3,6 +3,8 @@
 #include "Array.h"
 #include "ArrayWithBinarySearch.h"
 #include "BinarySearchTree.h"
+#include "Linklist.h"
+
 int n=0,m=0;
 const char parm[parmCount][5] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
 double parmTag [parmCount-2][3] = {
@@ -78,7 +80,7 @@ void runStructure(char ** dataTemp,char ** SearchTemp){
                     MainArray(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 3:
-
+                    MainLinklist(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 4:
 
