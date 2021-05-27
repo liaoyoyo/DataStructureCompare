@@ -1,17 +1,26 @@
 #include "BinarySearchTree.h"
 #include "Data.h"
 
+struct node {
+    char data[1000];
+    Node *left;
+    Node *right;
+};
+
 
 double MainBinarySearchTree( int n, char ** dataTemp, int m, char ** SearchTemp,double * creatTime,double * SearchTime){
     double time=0;
     Node * root=NULL;
-    for(int i=0;i<n;++n){
+
+    for(int i=0;i<n;++i){
     	*creatTime +=	BinarySearchTreeCreat(&root,dataTemp[i]);
     }
-    for(int i=0;i<m;++m){
+
+
+    for(int i=0;i<m;++i){
         *SearchTime += SearchBinarySearchTree(root,SearchTemp[i]);
     }
-    //BinarySearchTreeFree(root);
+
     time+=*creatTime;
     time+=*SearchTime;
     FreeBinarySearchTree(root);
@@ -35,10 +44,7 @@ double SearchBinarySearchTree(Node * T, char * str) {
     else // 在右子樹中繼續查找
     {
         return SearchBinarySearchTree(T->right, str);
-}
-	finish = clock();
-    diff  = (double) (finish-start);
-    return diff;
+    }
 }
 
 Node *NewNode(char *str){
@@ -55,7 +61,7 @@ double BinarySearchTreeCreat(Node **root,char *str){
     start = clock();
     Node **ptr=root;
     Node *t;
-    while((t=*ptr)!=NULL){
+    while(t=*ptr){
         if(strcmp(str,t->data)>=0){
             ptr=&t->right;
         }else if(strcmp(str,t->data)<0){
@@ -71,6 +77,6 @@ double BinarySearchTreeCreat(Node **root,char *str){
 void FreeBinarySearchTree(Node *root){
     if(root==NULL) return;
     FreeBinarySearchTree(root->left);
-    free(root);
     FreeBinarySearchTree(root->right);
+    free(root);
 }

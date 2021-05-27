@@ -7,10 +7,4 @@ double BinarySearchTreeCreat(Node **root,char *str);
 double SearchBinarySearchTree(Node * T, char * str);
 Node *NewNode(char *str);
 void FreeBinarySearchTree(Node *root);
-
-struct node {
-    char data[dataLen + 1];
-    Node *left;
-    Node *right;
-};
 #endif //DATASTRUCTURECOMPARE_BINARYSEARCHTREE_H

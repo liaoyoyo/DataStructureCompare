@@ -1,15 +1,19 @@
 #include "LinkedList.h"
 #include "Data.h"
-
+struct list{
+    char data[dataLen+1];
+    List * next;
+};
 double MainLinklist(int n, char ** dataTemp, int m, char ** SearchTemp,double * creatTime,double * SearchTime){
    double time=0;
    List * begin = NULL;
    List * end = NULL;
    //begin = end;
-   for(int i= 0;i<n;++i){
+    printf("ok");
+    for(int i= 0;i<n;++i){
         *creatTime += LinklistCreat(n,dataTemp[i],begin,end);
    }
-   
+    printf("%s",begin->data);
    for(int i= 0;i<m;++i){
         *SearchTime += LinklistSearch(begin,SearchTemp[i]);
    }
@@ -17,7 +21,6 @@ double MainLinklist(int n, char ** dataTemp, int m, char ** SearchTemp,double * 
    time+=*creatTime;
    time+=*SearchTime;
    FreeLinklist(begin);
-   
    return time;
 }
 

@@ -39,7 +39,7 @@ void freeAll(char ** dataTemp,char ** SearchTemp){
 }
 
 void init(int argc,char ** argv){
-    for (int i = 1; i < argc; ++i) {
+    for (int i = 0; i < argc; ++i) {
         if(argv[i][0] == '-' && argv[i][1] != '\0' ){
             int j= 0;
             for (; j < parmCount; ++j) {
@@ -71,6 +71,7 @@ void runStructure(char ** dataTemp,char ** SearchTemp){
         if(parmTag[i][0] !=0 ){
             switch (i) {
                 case 0:
+                    printf("bst run!");
                     MainBinarySearchTree(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 1:
@@ -80,6 +81,7 @@ void runStructure(char ** dataTemp,char ** SearchTemp){
                     MainArray(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 3:
+                    printf("ll run!");
                     MainLinklist(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 4:
