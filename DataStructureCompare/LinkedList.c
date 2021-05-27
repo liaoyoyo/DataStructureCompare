@@ -13,16 +13,11 @@ double MainLinklist(int n, char ** dataTemp, int m, char ** SearchTemp,double * 
         *creatTime += LinklistCreat(dataTemp[i],&begin);
 
     }
-    clock_t start, finish;
-    double diff;
-    start = clock();
+    
 
     for(int i= 0;i<m;++i){
         *SearchTime += LinklistSearch(&begin,SearchTemp[i]);
-   }
-    finish = clock();
-    *SearchTime  = (double) (finish-start);
-    printf("3l");
+    }
 
     time+=*creatTime;
    time+=*SearchTime;
