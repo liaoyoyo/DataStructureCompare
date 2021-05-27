@@ -1,14 +1,7 @@
 #include "BinarySearchTree.h"
 #include "Data.h"
 
-typedef struct node Node;
-typedef struct tree Tree;
 
-struct node {
-    char data[parmCount+1];
-    Node *left;
-    Node *right;
-};
 
 
 double MainBinarySearchTree( int n, char ** dataTemp, int m, char ** SearchTemp,double * creatTime,double * SearchTime){
