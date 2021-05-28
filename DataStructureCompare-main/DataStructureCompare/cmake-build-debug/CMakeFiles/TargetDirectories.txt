@@ -1,0 +1,3 @@
+C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/CMakeFiles/DataStructureCompare.dir
+C:/Users/user/Downloads/DataStructureCompare-main/DataStructureCompare/cmake-build-debug/CMakeFiles/edit_cache.dir
