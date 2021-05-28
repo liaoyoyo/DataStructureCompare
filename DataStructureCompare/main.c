@@ -84,7 +84,7 @@ void runStructure(char ** dataTemp,char ** SearchTemp){
                     MainLinklist(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
                 case 4:
-
+                    MainHash(n,dataTemp,m,SearchTemp,&parmTag[i][1],&parmTag[i][2]);
                     break;
             }
         }
