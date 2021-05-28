@@ -7,7 +7,7 @@
 #include "Hash.h"
 
 int n=0,m=0;
-const char parm[parmCount][5] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
+const char parm[parmCount][6] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
 double parmTag [parmCount-2][3] = {
     // use 0/1, building time: XXXX.XX sec, query time: XXXX.XX sec
     {0,0,0},
@@ -40,7 +40,7 @@ void freeAll(char ** dataTemp,char ** SearchTemp){
 }
 
 void init(int argc,char ** argv){
-    for (int i = 0; i < argc; ++i) {
+    for (int i = 1; i < argc; ++i) {
         if(argv[i][0] == '-' && argv[i][1] != '\0' ){
             int j= 0;
             for (; j < parmCount; ++j) {

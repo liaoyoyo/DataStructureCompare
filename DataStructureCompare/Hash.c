@@ -1,11 +1,11 @@
 #include "Hash.h"
 #include "Data.h"
-
+#include "Array.h"
 double MainHash(int n, char ** dataTemp, int m, char ** SearchTemp,double * creatTime,double * SearchTime){
 	double time=0;
 	char ** ArrayData = malloc(sizeof(char * ) *n);
 	*creatTime = HashCreat(n,dataTemp,ArrayData);
-	*SearchTime = HashSearch(m,SearchTemp);
+	*SearchTime = HashSearch(n,m,SearchTemp);
 	time = *creatTime + *SearchTime;
 	ArrayFree(n,ArrayData);
 	return time;
@@ -26,7 +26,7 @@ double HashCreat(int n, char ** dataTemp,char ** ArrayData){
     return diff;
 }
 
-double HashSearch(int m, char ** SearchTemp){
+double HashSearch(int n,int m, char ** SearchTemp){
     clock_t start, finish;
     double diff;
     start = clock();
