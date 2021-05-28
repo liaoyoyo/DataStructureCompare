@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\DataStructureCompare.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe cr CMakeFiles\DataStructureCompare.dir/objects.a @CMakeFiles\DataStructureCompare.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\DataStructureCompare.dir/objects.a -Wl,--no-whole-archive -o DataStructureCompare.exe -Wl,--out-implib,libDataStructureCompare.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DataStructureCompare.dir\linklibs.rsp

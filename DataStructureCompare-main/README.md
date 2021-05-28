@@ -1,2 +1,0 @@
-# DataStructureCompare
-WH2
