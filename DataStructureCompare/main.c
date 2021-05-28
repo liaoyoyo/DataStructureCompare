@@ -4,6 +4,7 @@
 #include "ArrayWithBinarySearch.h"
 #include "BinarySearchTree.h"
 #include "LinkedList.h"
+#include "Hash.h"
 
 int n=0,m=0;
 const char parm[parmCount][5] = {"-d","-q","-bst","-bs","-arr","-ll","-hash"};
